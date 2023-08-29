@@ -13,4 +13,8 @@ public class MyController {
 	public String getMyProfession() {
 		return "developer";
 	}
+	@RequestMapping("/getage")
+	public String getAge() {
+		return "25 years old";
+	}
 }
