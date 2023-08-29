@@ -1,3 +1,0 @@
-From eclipse-temurin:17
-copy target/mydetails.jar mydetails.jar
-cmd  ["java","-jar","mydetails.jar"]
